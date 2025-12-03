@@ -1,0 +1,10 @@
+# Bỏ qua thư mục môi trường ảo
+venv/
+__pycache__/
+
+# Bỏ qua file database (vì chứa dữ liệu cá nhân lúc test)
+*.db
+sentiment.db
+
+# Bỏ qua các file hệ thống
+.DS_Store
